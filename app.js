@@ -38,3 +38,10 @@ function updateDataInJSONFile(newData){
     fs.writeFileSync('data.json',JSON.stringify(data,null,2))
 }*/
 export default app;
+/**
+ {
+  "tv": "2024-06-05T21:00:00.000Z",
+  "phone": "2024-06-02T21:00:00.000Z",
+  "computer": "2024-06-02T21:00:00.000Z"
+}
+ */
